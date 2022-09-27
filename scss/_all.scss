@@ -1,0 +1,163 @@
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+            /* HEADER/NAV (ALL) */
+
+.bg-color{
+    background-color: rgb(41, 47, 49);; 
+}
+
+.nav-link{
+    color: white;
+}
+
+#logo-header {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#logo-header img{
+    height: 78px;
+    width: 78px;
+    margin-right: 10px;
+}
+
+.Selfie{
+    font-size: 30px;
+    color: black;
+}
+
+
+.nav-item a:hover{
+    color: rgb(148, 32, 202);
+
+}
+
+            /* ABAJO DEL NAV (INDEX) */
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto; 
+    grid-template-areas: 
+    "Caja";
+    width: 100%;
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding: 0;
+    background-image: url(../assets/imgs/background4.jpg);
+}
+.caja {
+    grid-area: Caja;
+    border: 1.5px solid #FFF;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-image: url(../assets/imgs/background1.jpeg);
+
+}
+
+.caja h1 {
+    font-size: 25px;
+    font-weight: 50px;
+    font-family: fantasy;
+    color: white;
+    text-decoration-color: white;
+}
+
+/* FOOTER (ALL) */
+
+#footer {
+    background: rgb(41, 47, 49);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0px;
+    position: relative;
+    left: 0;
+}
+
+
+
+#footer p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#footer a {
+    color: white;
+}
+
+/* FOOTER IMGS */
+.redes2 {
+			
+    width:45px;
+    top: 50px;
+    right:0;
+}
+
+.redes2{
+    top:35%;
+    height:44px;
+    margin-top:0px;
+    margin-right:0px;
+}
+
+.redes3 {
+    
+    width:45px;
+    top: 50px;
+    right:0;
+}
+
+.redes3 {
+    top:35%;
+    height:44px;
+    margin-top:0px;
+    margin-right:0px;
+}
+
+.redes4 {
+    
+    width:45px;
+    top: 50px;
+    right:0;
+}
+
+.redes4 {
+    top:35%;
+    height:44px;
+    margin-top:0px;
+    margin-right:0px;
+}
+
+.wave {
+    fill: $colorPrincipal;
+}
+
+.wpp {
+    display: flex;
+    padding-top: 21rem;
+    padding-left: 80rem;
+    
+    position: fixed;
+}
+
+.wppimg {
+    width: 60px;
+    cursor: pointer;
+}

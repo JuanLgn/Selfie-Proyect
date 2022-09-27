@@ -1,0 +1,132 @@
+@import "contacto";
+@import "ubicacion";
+@import "productos";
+@import "servicios";
+@import "variables";
+
+
+.alert {
+    margin-bottom: 0px;
+}
+.clientes{
+    font-size: 56px;
+    color: rgb(16, 84, 88);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media (max-width:350px){
+    .clientes{
+        font-size: 30px;
+    }
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+.img-fluid{
+    border-radius: 10px;
+}
+
+.profile-area{
+    padding: 80px 0;
+}
+
+.cards {
+    box-shadow: 0 0 30px rgba (0,0,0,0-5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img1 img {
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+.img2 img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+
+.card:hover .img2 img {
+    border-color: rgb(138, 25, 119);
+    transition: 4s;
+}
+
+.main-text {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.main-text h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.main-text p {
+    font-size: 16px;
+    padding: 0 35px;
+}
+
+.profile-area2 {
+    padding-top: 20px;
+    background-color: rgb(245, 237, 237);
+}
+
+.aintera {
+    text-decoration: none;
+    color: purple;
+}
+
+.aintera:hover {
+    color: aqua;
+}
+
+
+
+
+/* .card-img-top{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    size: 100vh 100vh;
+}
+
+@media (max-width:850px){
+    .card-img-top{
+        width: 150px;
+        margin-left: 58px;
+        margin-top: 10px;
+        text-align: center;
+        height: 200px;
+    }
+}
+
+@media (max-width:315px){
+    .card-img-top{
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+        height: 200px;
+    }
+} */
+
+/* TEXTO DE COMENTARIOS (INDEX) */
+
+/* .card-text{
+    color: rgb(16, 84, 88);
+    font-weight: 500;
+} */

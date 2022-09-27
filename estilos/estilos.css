@@ -1,20 +1,19 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    transition: 0.5s;
 }
 
 body{
     height: 100vh;
     width: 100%;
     position: relative;
-}
+} */
             
             /* HEADER/NAV (ALL) */
 
-.bg-color{
+/* .bg-color{
     background-color: rgb(41, 47, 49);; 
 }
 
@@ -43,11 +42,11 @@ body{
 .nav-item a:hover{
     color: rgb(148, 32, 202);
 
-}
+} */
 
             /* ABAJO DEL NAV (INDEX) */
 
-.grid-layout{
+/* .grid-layout{
     display: grid;
     grid-template-columns: auto; 
     grid-template-areas: 
@@ -81,7 +80,7 @@ body{
 
             /* CLIENTES (INDEX) */
 
-.clientes{
+/* clientes{
     font-size: 56px;
     color: rgb(16, 84, 88);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -128,19 +127,19 @@ body{
         text-align: center;
         height: 200px;
     }
-}
+} */
 
 /* TEXTO DE COMENTARIOS (INDEX) */
 
-.card-text{
+/* .card-text{
     color: rgb(16, 84, 88);
     font-weight: 500;
-}
+} */ 
 
 
-/* FOOTER (ALL) */
+/* /* FOOTER (ALL) */
 
-#footer {
+/* #footer {
     background: rgb(41, 47, 49);
     color: white;
     text-align: center;
@@ -159,10 +158,10 @@ body{
 
 #footer a {
     color: white;
-}
+} */
 
 /* FOOTER IMGS */
-.redes2 {
+/* .redes2 {
 			
     width:45px;
     top: 50px;
@@ -202,11 +201,11 @@ body{
     height:44px;
     margin-top:0px;
     margin-right:0px;
-}
+} */ 
 
-/* PRODUCTOS PAGE */
+/* /* PRODUCTOS PAGE */
 
-.rows{                        /* TUVE QUE MODIFICAR EL ROW */
+/* .rows{                       
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -234,7 +233,7 @@ body{
 
 /* REGISTER */
 
-.offcanvas-header{
+/* .offcanvas-header{
     background-image: url(/assets/imgs/contactbackground.jpg);
 
 }
@@ -308,12 +307,12 @@ textarea {
     width: 100%;
     transform: translate(0px, 0px);
 }
-}
+} */ 
 
 
 /* UBICACIÓN PAGE */
 
-.h1ubicacion{
+/* .h1ubicacion{
     font-size: 56px;
     color: rgb(16, 84, 88);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -348,11 +347,11 @@ textarea {
     color: rgb(187, 13, 187);
     font-size: 19px;
 }
-
+ */
 
 /* SERVICIOS */
 
-.h1servicios{
+/* .h1servicios{
     font-size: 56px;
     color: rgb(16, 84, 88);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -369,11 +368,11 @@ textarea {
     margin-top: 14px;
     border-radius: 15px;
 }
-
+ */
 
 /* CONTACT PAGE */
 
-#bodycontact{
+/* #bodycontact{
     background-color: rgb(206, 252, 236);
 }
 .h1contacto{
@@ -437,4 +436,4 @@ textarea {
     .contactform{
         width: 100%;
     }
-}
+{

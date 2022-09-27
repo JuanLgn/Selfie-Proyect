@@ -1,0 +1,19 @@
+/* SERVICIOS */
+
+.h1servicios{
+    font-size: 56px;
+    color: rgb(79, 16, 85);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+@media (max-width:350px){
+    .h1servicios{
+        font-size: 23px;
+    }
+}
+
+.card-imgd{
+    margin-top: 14px;
+    border-radius: 15px;
+}

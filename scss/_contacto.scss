@@ -1,0 +1,67 @@
+/* CONTACT PAGE */
+
+#bodycontact{
+    background-color: rgb(134, 134, 134);
+}
+.h1contacto{
+    font-size: 56px;
+    color: rgb(79, 16, 85);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+@media (max-width:350px){
+    .h1contacto{
+        font-size: 23px;
+    }
+}
+
+.contactform {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    border-radius: 7px;
+}
+
+.h2contact{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#button{
+    background: #31384A;
+    color: white;
+    padding: 20px;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .contactform{
+        width: 100%;
+    }
+}

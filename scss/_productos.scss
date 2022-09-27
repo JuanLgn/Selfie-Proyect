@@ -1,0 +1,105 @@
+/* PRODUCTOS PAGE */
+
+.rows{                       
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.card {
+    text-align: center;
+}
+
+.productos{
+    font-size: 56px;
+    color: rgb(79, 16, 85);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+@media (max-width:350px){
+    .productos{
+        font-size: 23.5px;
+    }
+}
+
+/* REGISTER */
+
+.offcanvas-header{
+    background-image: url(/assets/imgs/contactbackground.jpg);
+
+}
+
+form{
+    width: 300px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    border-radius: 7px;
+}
+
+@media (max-width: 480px) {
+    form{
+        width: 100%;
+    }
+}
+
+.h2contact{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#buttonContact{
+    background: #31384A;
+    color: white;
+    padding: 20px;
+}
+
+#buttonContact:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    form{
+        width: 100%;
+    }
+}
+
+.offcanvas-body {
+    transform: translate(33%);
+    background-color: rgb(134, 226, 230);
+}
+
+.offcanvas{
+    background-color: rgb(134, 226, 230);
+}
+
+@media (max-width: 200px ) {
+    .offcanvas-body{
+    width: 100%;
+    transform: translate(0px, 0px);
+}
+}
