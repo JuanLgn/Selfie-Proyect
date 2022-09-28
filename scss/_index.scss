@@ -1,10 +1,3 @@
-@import "contacto";
-@import "ubicacion";
-@import "productos";
-@import "servicios";
-@import "variables";
-
-
 .alert {
     margin-bottom: 0px;
 }
@@ -58,26 +51,28 @@
     margin-top: -80px;
 }
 
-.card:hover .img2 img {
-    border-color: rgb(138, 25, 119);
-    transition: 4s;
+.card:hover{
+    .img2{
+        img{
+            border-color: rgb(138, 25, 119);
+            transition: 4s;
+        }  
+    }
 }
 
 .main-text {
     padding: 30px 0;
     text-align: center;
-}
-
-.main-text h2 {
+    h2{
     text-transform: uppercase;
     font-weight: 900;
     font-size: 20px;
-    margin: 0 0 20px;
-}
-
-.main-text p {
+    margin: 0 0 20px;   
+    } 
+    p{
     font-size: 16px;
-    padding: 0 35px;
+    padding: 0 35px;        
+    }  
 }
 
 .profile-area2 {
@@ -88,10 +83,8 @@
 .aintera {
     text-decoration: none;
     color: purple;
-}
 
-.aintera:hover {
-    color: aqua;
+    &:hover{ color: aqua;}
 }
 
 

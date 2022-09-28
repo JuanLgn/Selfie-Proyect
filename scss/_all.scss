@@ -1,5 +1,3 @@
-@import "variables";
-
 *{
     margin: 0;
     padding: 0;
@@ -27,19 +25,17 @@ body{
     display: flex;
     align-items: center;
     text-decoration: none;
-}
-
-#logo-header img{
+    img{
     height: 78px;
     width: 78px;
-    margin-right: 10px;
+    margin-right: 10px;        
+    }
 }
 
 .Selfie{
     font-size: 30px;
     color: black;
 }
-
 
 .nav-item a:hover{
     color: rgb(148, 32, 202);
@@ -68,15 +64,14 @@ body{
     padding-bottom: 15px;
     padding-top: 15px;
     background-image: url(../assets/imgs/background1.jpeg);
-
-}
-
-.caja h1 {
+    h1{
     font-size: 25px;
     font-weight: 50px;
     font-family: fantasy;
     color: white;
-    text-decoration-color: white;
+    text-decoration-color: white;        
+    }
+
 }
 
 /* FOOTER (ALL) */
@@ -89,22 +84,17 @@ body{
     margin-top: 0px;
     position: relative;
     left: 0;
-}
-
-
-
-#footer p {
+    p{
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 0;        
+    }
+    a{
+        color: white;
+    }
 }
 
-#footer a {
-    color: white;
-}
-
-/* FOOTER IMGS */
+/* FOOTER IMGS */ /*DUDA, esta zona de redes, (redes2 redes2, redes3 redes3) lleva anidación?*/
 .redes2 {
-			
     width:45px;
     top: 50px;
     right:0;
@@ -118,7 +108,6 @@ body{
 }
 
 .redes3 {
-    
     width:45px;
     top: 50px;
     right:0;
@@ -153,11 +142,9 @@ body{
     display: flex;
     padding-top: 21rem;
     padding-left: 80rem;
-    
     position: fixed;
-}
-
-.wppimg {
+    img{
     width: 60px;
-    cursor: pointer;
+    cursor: pointer;        
+    }
 }

@@ -3,6 +3,7 @@
 #bodycontact{
     background-color: rgb(134, 134, 134);
 }
+
 .h1contacto{
     font-size: 56px;
     color: rgb(79, 16, 85);
@@ -42,22 +43,19 @@ input, textarea {
     box-sizing: border-box;
     font-size: 17px;
     border: none;
-}
-
-textarea {
+    textarea {
     min-height: 100px;
     max-height: 200px;
-    max-width: 100%;
+    max-width: 100%;        
+    }
 }
 
 #button{
     background: #31384A;
     color: white;
     padding: 20px;
-}
 
-#button:hover {
-    cursor: pointer;
+    &:hover{ cursor: pointer;}
 }
 
 @media (max-width: 480px) {
