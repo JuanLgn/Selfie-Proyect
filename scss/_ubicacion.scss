@@ -19,17 +19,17 @@
     margin-left: 40px;
     margin-right: 40px;
     transform: translate(5px, -20px);
-    
+
 }
+
+
 
 @media (max-width:450px){
     .ubicacion{
-        width: 100%; 
-        height: 100%;
-        margin: 0 auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
-
 
 .alerts{
     color: rgb(187, 13, 187);

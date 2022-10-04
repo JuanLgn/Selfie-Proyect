@@ -1,4 +1,39 @@
 @charset "UTF-8";
+/* TAMAÑO */
+/* CONDICIONALES */
+.bg-color {
+  background-color: #bd2b2b; }
+
+#footer {
+  background: #bd2b2b; }
+
+.wave {
+  fill: #bd2b2b; }
+
+body {
+  background-image: url(../assets/imgs/backgroundNavidad.jpg);
+  background-size: 100%;
+  background-attachment: fixed; }
+
+/* MAPA */
+.btn--twitter {
+  fill: #2998bd; }
+
+.btn--facebook {
+  fill: blue; }
+
+.btn--gmail {
+  fill: black; }
+
+/* MIXIN */
+body {
+  width: 100%;
+  height: 100%; }
+
+.grid-layout {
+  width: 100%;
+  height: 100%; }
+
 * {
   margin: 0;
   padding: 0;
@@ -6,14 +41,9 @@
   box-sizing: border-box; }
 
 body {
-  height: 100vh;
-  width: 100%;
   position: relative; }
 
 /* HEADER/NAV (ALL) */
-.bg-color {
-  background-color: #292f31; }
-
 .nav-link {
   color: white; }
 
@@ -38,7 +68,6 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-areas: "Caja";
-  width: 100%;
   margin: 0 auto;
   background-color: lightgreen;
   padding: 0;
@@ -62,7 +91,6 @@ body {
 
 /* FOOTER (ALL) */
 #footer {
-  background: #292f31;
   color: white;
   text-align: center;
   padding: 30px;
@@ -75,43 +103,14 @@ body {
   #footer a {
     color: white; }
 
-/* FOOTER IMGS */
-/*DUDA, esta zona de redes, (redes2 redes2, redes3 redes3) lleva anidación?*/
-.redes2 {
+/* FOOTER IMGS  - EXTEND - */
+.redes2, .redes3, .redes4 {
   width: 45px;
-  top: 50px;
-  right: 0; }
-
-.redes2 {
+  right: 0;
   top: 35%;
   height: 44px;
   margin-top: 0px;
   margin-right: 0px; }
-
-.redes3 {
-  width: 45px;
-  top: 50px;
-  right: 0; }
-
-.redes3 {
-  top: 35%;
-  height: 44px;
-  margin-top: 0px;
-  margin-right: 0px; }
-
-.redes4 {
-  width: 45px;
-  top: 50px;
-  right: 0; }
-
-.redes4 {
-  top: 35%;
-  height: 44px;
-  margin-top: 0px;
-  margin-right: 0px; }
-
-.wave {
-  fill: #292f31; }
 
 .wpp {
   display: flex;
@@ -192,37 +191,6 @@ body {
   .aintera:hover {
     color: aqua; }
 
-/* .card-img-top{
-    margin-top: 10px;
-    text-align: center;
-    border-radius: 10px;
-    size: 100vh 100vh;
-}
-
-@media (max-width:850px){
-    .card-img-top{
-        width: 150px;
-        margin-left: 58px;
-        margin-top: 10px;
-        text-align: center;
-        height: 200px;
-    }
-}
-
-@media (max-width:315px){
-    .card-img-top{
-        width: 150px;
-        margin-left: 10px;
-        margin-top: 10px;
-        text-align: center;
-        height: 200px;
-    }
-} */
-/* TEXTO DE COMENTARIOS (INDEX) */
-/* .card-text{
-    color: rgb(16, 84, 88);
-    font-weight: 500;
-} */
 /* CONTACT PAGE */
 #bodycontact {
   background-color: #868686; }
@@ -298,9 +266,8 @@ input, textarea {
 
 @media (max-width: 450px) {
   .ubicacion {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto; } }
+    margin-left: 10px;
+    margin-right: 10px; } }
 
 .alerts {
   color: #bb0dbb;
