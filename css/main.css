@@ -2,18 +2,16 @@
 /* TAMAÑO */
 /* CONDICIONALES */
 .bg-color {
-  background-color: #bd2b2b; }
+  background-color: #292f31; }
 
 #footer {
-  background: #bd2b2b; }
+  background: #292f31; }
 
 .wave {
-  fill: #bd2b2b; }
+  fill: #292f31; }
 
 body {
-  background-image: url(../assets/imgs/backgroundNavidad.jpg);
-  background-size: 100%;
-  background-attachment: fixed; }
+  background-color: white; }
 
 /* MAPA */
 .btn--twitter {

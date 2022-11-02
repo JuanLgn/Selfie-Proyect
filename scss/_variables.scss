@@ -8,11 +8,11 @@ $height: 100%;
 
 /* CONDICIONALES */
 
-$fiesta: navidad;
+$fiesta: daily;
 
 .bg-color{
 
-    @if $fiesta == normal{
+    @if $fiesta == daily{
         background-color: $colorPrincipal;
     } @else if $fiesta == navidad{
         background-color: $colorNavidad;
@@ -23,7 +23,7 @@ $fiesta: navidad;
 
 #footer{
 
-    @if $fiesta == normal{
+    @if $fiesta == daily{
         background: $colorPrincipal;
     } @else if $fiesta == navidad{
         background: $colorNavidad;
@@ -34,7 +34,7 @@ $fiesta: navidad;
 
 .wave{
 
-    @if $fiesta == normal{
+    @if $fiesta == daily{
         fill: $colorPrincipal;
     } @else if $fiesta == navidad{
         fill: $colorNavidad;
@@ -45,7 +45,7 @@ $fiesta: navidad;
 
 body{
 
-    @if $fiesta == normal{
+    @if $fiesta == daily{
         background-color: white;
     } @else if $fiesta == navidad{
         background-image: url(../assets/imgs/backgroundNavidad.jpg);
